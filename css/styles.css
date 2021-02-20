@@ -1,0 +1,173 @@
+body {
+    font-family: 'Montserrat' !important;
+    text-align: center !important;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 3% 15% 10%;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* --------Big heading-------- */
+
+.big-heading {
+    font-family: 'Montserrat' !important;
+    font-size: 3rem !important;
+    line-height: 1.5 !important;
+}
+
+/* ---------Styling lines----- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+}
+
+p {
+    color: grey;
+}
+
+/* ----------nav Bar --------- */
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-items {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light';
+}
+
+/* --------download button---- */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+#titles-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 40%;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* --------Features---------- */
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.features-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 10px;
+}
+
+/*  Testimonials */
+.testimonial-text {
+    padding: 7% 15%;
+
+}
+
+#testimonials {
+
+    background-color: #ef8172;
+    color: aliceblue;
+}
+
+.carousel-items {
+    padding: 7% 15%;
+}
+
+/* ------  Press  ----------- */
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 15px 20px 50px;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.navbar {
+    margin-bottom: 40px;
+}
+
+/* Pricing */
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* ----footer------- */
+#cta {
+    background-color: #ff4c68;
+    color: #fff;
+    font-size: 100px;
+    padding: 7% 15%;
+}
+
+#footer {
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+.social-ic {
+    margin: 20px 10px !important;
+}
+
+/* ------------Media query--------- */
+@media only screen and (max-width: 991px) {
+    #titles-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title {
+        text-align: center !important;
+    }
+}
+
+/* *{
+    border: 1px solid black;
+} */
